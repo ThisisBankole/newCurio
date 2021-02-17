@@ -15,6 +15,12 @@
 		CE5ECFD825D5635400F08DCB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5ECFAD25D5635200F08DCB /* ContentView.swift */; };
 		CE5ECFD925D5635400F08DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5ECFAE25D5635400F08DCB /* Assets.xcassets */; };
 		CE5ECFDA25D5635400F08DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5ECFAE25D5635400F08DCB /* Assets.xcassets */; };
+		CE5ECFEA25D5636E00F08DCB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5ECFE925D5636E00F08DCB /* CardView.swift */; };
+		CE5ECFEB25D5636E00F08DCB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5ECFE925D5636E00F08DCB /* CardView.swift */; };
+		CE5ECFED25D5655400F08DCB /* DropdownItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5ECFEC25D5655400F08DCB /* DropdownItems.swift */; };
+		CE5ECFEE25D5655400F08DCB /* DropdownItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5ECFEC25D5655400F08DCB /* DropdownItems.swift */; };
+		CE5ECFF025D5E17200F08DCB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5ECFEF25D5E17100F08DCB /* HomeView.swift */; };
+		CE5ECFF125D5E17200F08DCB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5ECFEF25D5E17100F08DCB /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,9 @@
 		CE5ECFCE25D5635400F08DCB /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5ECFD225D5635400F08DCB /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		CE5ECFD425D5635400F08DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5ECFE925D5636E00F08DCB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CE5ECFEC25D5655400F08DCB /* DropdownItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownItems.swift; sourceTree = "<group>"; };
+		CE5ECFEF25D5E17100F08DCB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +109,9 @@
 			children = (
 				CE5ECFAC25D5635200F08DCB /* newCurioApp.swift */,
 				CE5ECFAD25D5635200F08DCB /* ContentView.swift */,
+				CE5ECFE925D5636E00F08DCB /* CardView.swift */,
+				CE5ECFEF25D5E17100F08DCB /* HomeView.swift */,
+				CE5ECFEC25D5655400F08DCB /* DropdownItems.swift */,
 				CE5ECFAE25D5635400F08DCB /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -309,6 +321,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5ECFD725D5635400F08DCB /* ContentView.swift in Sources */,
+				CE5ECFED25D5655400F08DCB /* DropdownItems.swift in Sources */,
+				CE5ECFEA25D5636E00F08DCB /* CardView.swift in Sources */,
+				CE5ECFF025D5E17200F08DCB /* HomeView.swift in Sources */,
 				CE5ECFD525D5635400F08DCB /* newCurioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +333,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5ECFD825D5635400F08DCB /* ContentView.swift in Sources */,
+				CE5ECFEE25D5655400F08DCB /* DropdownItems.swift in Sources */,
+				CE5ECFEB25D5636E00F08DCB /* CardView.swift in Sources */,
+				CE5ECFF125D5E17200F08DCB /* HomeView.swift in Sources */,
 				CE5ECFD625D5635400F08DCB /* newCurioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
